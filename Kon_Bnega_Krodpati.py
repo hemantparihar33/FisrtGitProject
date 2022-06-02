@@ -3,12 +3,14 @@ print("Kon Bnega Krodpati Mai Apka Swagat Hai\n")
 
 question1 = "WHAT IS CAPITAL OF INDIA?"
 options1 = "a. PUNJAB\nb. MUMBAI\nc. DELHI\nd. MANALI\n"
+ans = "Shi Jwaab"
 print(question1)
 print(options1)
 
 while True:
     response = input("Enter Your Answer\n")
     if response == "c":
+        print(ans)
         break
     else:
         print("Galat Jwaab.")
